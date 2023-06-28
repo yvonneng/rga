@@ -4,7 +4,12 @@
     "1.0"
   ],
   "Accept-Serialization": [
-    "application/tar"
+    "application/x-7z-compressed",
+    "application/tar",
+    "application/zip",
+    "application/gzip",
+    "application/x-rar-compressed",
+    "application/tar+gzip"
   ],
   "Allow-Fetch.txt": false,
   "Serialization": "optional",
@@ -71,7 +76,5 @@
       "required": false
     }
   },
-  "Tag-Files-Required": []
-}
   "Tag-Files-Required": []
 }
