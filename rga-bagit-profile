@@ -34,7 +34,7 @@
     "*"
   ],
   "BagIt-Profile-Info": {
-    "BagIt-Profile-Identifier": "",
+    "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/yvonneng/rga/main/rga-bagit-profile",
     "BagIt-Profile-Version": "",
     "Contact-Email": "rohingyaarchive@gmail.com",
     "Contact-Name": "",
