@@ -1,0 +1,75 @@
+{
+  "Accept-BagIt-Version": [
+    "0.97",
+    "1.0"
+  ],
+  "Accept-Serialization": [
+    "application/tar"
+  ],
+  "Allow-Fetch.txt": false,
+  "Serialization": "optional",
+  "Manifests-Allowed": [
+    "md5",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "Tag-Manifests-Allowed": [
+    "md5",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "Manifests-Required": [
+    "md5"
+  ],
+  "Tag-Manifests-Required": [
+    "md5"
+  ],
+  "Tag-Files-Allowed": [
+    "*"
+  ],
+  "BagIt-Profile-Info": {
+    "BagIt-Profile-Identifier": "https://github.com/yvonneng/rga-bagit-profile",
+    "BagIt-Profile-Version": "",
+    "Contact-Email": "rohingyaarchive@gmail.com",
+    "Contact-Name": "",
+    "External-Description": "",
+    "Source-Organization": "Rohingya Genocide Archive",
+    "Version": ""
+  },
+  "Bag-Info": {
+    "Bag-Size": {
+      "required": false
+    },
+    "Bagging-Date": {
+      "required": false
+    },
+    "Bagging-Software": {
+      "required": false
+    },
+    "Contact-Email": {
+      "required": false
+    },
+    "External-Identifier": {
+      "required": false
+    },
+    "Internal-Sender-Identifier": {
+      "required": false
+    },
+    "Organization-Address": {
+      "required": false
+    },
+    "Payload-Oxum": {
+      "required": false
+    },
+    "Source-Organization": {
+      "required": false
+    }
+  },
+  "Tag-Files-Required": []
+}
