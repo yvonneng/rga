@@ -43,37 +43,37 @@
     "BagIt-Profile-Version": "",
     "Contact-Email": "rohingyaarchive@gmail.com",
     "Contact-Name": "",
-    "External-Description": "",
+    "External-Description": "BagIt profile for ingesting content into Rohingya Genocide Archive. Updated 5 August 2023.",
     "Source-Organization": "Rohingya Genocide Archive",
-    "Version": ""
+    "Version": "1.0"
   },
   "Bag-Info": {
     "Bag-Size": {
-      "required": false
+      "required": true
     },
     "Bagging-Date": {
-      "required": false
+      "required": true
     },
     "Bagging-Software": {
-      "required": false
+      "required": true
     },
     "Contact-Email": {
-      "required": false
+      "required": true
     },
     "External-Identifier": {
-      "required": false
+      "required": true
     },
     "Internal-Sender-Identifier": {
-      "required": false
+      "required": true
     },
     "Organization-Address": {
-      "required": false
+      "required": true
     },
     "Payload-Oxum": {
-      "required": false
+      "required": true
     },
     "Source-Organization": {
-      "required": false
+      "required": true
     }
   },
   "Tag-Files-Required": []
