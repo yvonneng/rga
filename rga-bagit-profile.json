@@ -45,7 +45,7 @@
     "Contact-Name": "",
     "External-Description": "BagIt profile for ingesting content into Rohingya Genocide Archive. Updated 5 August 2023.",
     "Source-Organization": "Rohingya Genocide Archive",
-    "Version": "1.0"
+    "Version": "2.0"
   },
   "Bag-Info": {
     "Bag-Size": {
