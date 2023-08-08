@@ -62,9 +62,9 @@
          ]
       },
      	 "Contact-Email":{
-         "required":true,
-	 "values":[
-	    "rohingyaarchive@gmail.com"
+        	 "required":true,
+		 "values":[
+	 	   "rohingyaarchive@gmail.com"
 	 ]
       },
     	  "External-Identifier":{
