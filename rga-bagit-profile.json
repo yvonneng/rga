@@ -23,12 +23,12 @@
 	"allowFetchTxt": false,
 	"bagItProfileInfo": {
 		"bagItProfileIdentifier": "https://raw.githubusercontent.com/yvonneng/rga/main/rga-bagit-profile.json",
-		"bagItProfileVersion": "1.0",
+		"bagItProfileVersion": "1.3.0",
 		"contactEmail": "rohingyaarchive@gmail.com",
 		"contactName": "",
 		"externalDescription": "BagIt Profile for the Rohingya Genocide Archive. Last updated 9 August 2023.",
 		"sourceOrganization": "Rohingya Genocide Archive",
-		"version": ""
+		"version": "1.0"
 	},
 	"manifestsRequired": [
     "md5"
