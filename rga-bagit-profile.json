@@ -21,7 +21,6 @@
         "application/tar+gzip"
 	],
 	"allowFetchTxt": false,
-	{
    "BagIt-Profile-Info":{
       "BagIt-Profile-Identifier":"https://raw.githubusercontent.com/yvonneng/rga/main/rga-bagit-profile.json",
       "BagIt-Profile-Version": "1.3.0",
