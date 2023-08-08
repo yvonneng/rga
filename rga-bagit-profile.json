@@ -63,7 +63,7 @@
       },
      	 "Contact-Email":{
          "required":true,
-	 "values:[
+	 "values":[
 	    "rohingyaarchive@gmail.com"
 	 ]
       },
