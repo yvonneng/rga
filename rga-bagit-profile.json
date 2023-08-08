@@ -56,9 +56,9 @@
          ]
       },
      	 "Organization-Address":{
-         "required":true,
-         "values":[
-            "https://rohingyagenocidearchive.org/",
+        	 "required":true,
+        	 "values":[
+           	 "https://rohingyagenocidearchive.org/"
          ]
       },
      	 "Contact-Email":{
