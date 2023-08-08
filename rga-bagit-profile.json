@@ -1,11 +1,4 @@
 {
-	"id": "73d1b307-4d6b-494b-b0c9-a8595222ae5a",
-	"userCanDelete": true,
-	"required": [
-		"name",
-		"id"
-	],
-	"errors": {},
 	"name": "RGA BagIt Profile",
 	"description": "BagIt Profile for the Rohingya Genocide Archive.",
 	"acceptBagItVersion": [
@@ -20,7 +13,7 @@
         "application/x-rar-compressed",
         "application/tar+gzip"
 	],
-	"allowFetchTxt": false,
+	"Allow-Fetch.txt": false,
    	"BagIt-Profile-Info":{
       		"BagIt-Profile-Identifier":"https://raw.githubusercontent.com/yvonneng/rga/main/rga-bagit-profile.json",
       		"BagIt-Profile-Version": "1.3.0",
@@ -29,10 +22,10 @@
      		"External-Description":"BagIt Profile for the Rohingya Genocide Archive. Last updated 9 August 2023.",
     		"Version":"1.0"
  	},
-	"manifestsRequired": [
-    		"md5"
-	],
-	"manifestsAllowed": [
+	"Manifests-Required":[
+      		"md5"
+  	],
+	"Tag-Manifests-Allowed": [
 		"md5",
 		"sha1",
 		"sha224",
@@ -40,10 +33,10 @@
 		"sha384",
 		"sha512"
 	],
-	"tagManifestsRequired": [
+	"Tag-Files-Required": [
   		  "md5"
 	],
-	"tagManifestsAllowed": [
+	"Tag-Manifests-Allowed": [
 		"md5",
 		"sha1",
 		"sha224",
@@ -51,7 +44,7 @@
 		"sha384",
 		"sha512"
 	],
-	"tagFilesAllowed": [
+	"Tag-Files-Allowed": [
 		"*"
 	],
 	"Bag-Info":{
@@ -65,25 +58,14 @@
      	 "Organization-Address":{
          "required":true,
          "values":[
-            "8888 University Drive Burnaby, B.C. V5A 1S6 Canada",
-            "4700 Keele Street Toronto, Ontario M3J 1P3 Canada"
+            "https://rohingyagenocidearchive.org/",
          ]
-      },
-     	 "Contact-Name":{
-         "required":true,
-         "values":[
-            "Mark Jordan",
-            "Nick Ruest"
-         ]
-      },
-    	  "Contact-Phone":{
-         "required":false
       },
      	 "Contact-Email":{
-         "required":true
-      },
-    	  "External-Description":{
-         "required":true
+         "required":true,
+	 "values:[
+	    "rohingyaarchive@gmail.com"
+	 ]
       },
     	  "External-Identifier":{
          "required":false
@@ -91,16 +73,7 @@
      	 "Bag-Size":{
          "required":true
       },
-     	 "Bag-Group-Identifier":{
-         "required":false
-      },
-     	 "Bag-Count":{
-         "required":true
-      },
     	  "Internal-Sender-Identifier":{
-         "required":false
-      },
-    	  "Internal-Sender-Description":{
          "required":false
       },
      	 "Bagging-Date":{
