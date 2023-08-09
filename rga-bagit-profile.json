@@ -51,9 +51,10 @@
    	   "Source-Organization":{
        		"required":true,
         	 "values":[
-         	"Simon Fraser University",
-          	  "York University"
+         	"Rohingya Genocide Archive" 
          ]
+		"defaultValue":
+		"Rohingya Genocide Archive" 
       },
      	 "Organization-Address":{
         	 "required":true,
@@ -66,18 +67,26 @@
 		 "values":[
 	 	   "rohingyaarchive@gmail.com"
 	 ]
+		 "defaultValue":
+		 "rohingyaarchive@gmail.com"
       },
     	  "External-Identifier":{
          "required":false
+	 "help":
+	 "The URL of the source. If no URL, leave blank."
       },
      	 "Bag-Size":{
          "required":true
+	"help": 
+	"Will be populated by the bagging software."
       },
     	  "Internal-Sender-Identifier":{
          "required":false
       },
      	 "Bagging-Date":{
          "required":true
+	"help": 
+	"Will be populated by the bagging software."
       },
      	 "Payload-Oxum":{
          "required":true
