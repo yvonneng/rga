@@ -1,4 +1,6 @@
 {
+  "name": "RGA BagIt Profile",
+	"description": "BagIt Profile for the Rohingya Genocide Archive.",
   "Accept-BagIt-Version": [
     "0.97",
     "1.0"
@@ -40,10 +42,9 @@
   ],
   "BagIt-Profile-Info": {
     "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/yvonneng/rga/main/rga-bagit-profile.json",
-    "BagIt-Profile-Version": "",
+    "BagIt-Profile-Version": "1.3.0",
     "Contact-Email": "rohingyaarchive@gmail.com",
-    "Contact-Name": "",
-    "External-Description": "",
+    "External-Description": "BagIt Profile for the Rohingya Genocide Archive. Last updated 1 Sept 2023",
     "Source-Organization": "Rohingya Genocide Archive",
     "Version": "1.0"
   },
@@ -58,22 +59,39 @@
       "required": true
     },
     "Contact-Email": {
-      "required": true
+      "required": true,
+       "values":[
+	 	   "rohingyaarchive@gmail.com"
+	 ]
+		 "defaultValue":
+		 "rohingyaarchive@gmail.com"
     },
     "External-Identifier": {
-      "required": true
+      "required": true,
+      "help":
+	 "The URL of the source. If no URL, leave blank."
     },
     "Internal-Sender-Identifier": {
-      "required": true
+      "required": true,
+      "help":
+    "RGA package name, e.g. RMN00001_20230901"
     },
     "Organization-Address": {
-      "required": true
+      "required": true,
+      "values":[
+           	 "https://rohingyagenocidearchive.org/"
+         ]
     },
     "Payload-Oxum": {
       "required": true
     },
     "Source-Organization": {
-      "required": false
+      "required": true,
+      "values":[
+         	"Rohingya Genocide Archive" 
+         ]
+		"defaultValue":
+		"Rohingya Genocide Archive"
     }
   },
   "Tag-Files-Required": []
