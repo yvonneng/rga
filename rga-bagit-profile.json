@@ -63,7 +63,7 @@
        "values":[
 	 	   "rohingyaarchive@gmail.com"
 	 ],
-	"defaultValue":
+		"defaultValue":
 		 "rohingyaarchive@gmail.com"
     },
     "External-Identifier": {
@@ -90,7 +90,7 @@
       "values":[
          	"Rohingya Genocide Archive" 
          ],
-	"defaultValue":
+		"defaultValue":
 		"Rohingya Genocide Archive"
     }
   },
