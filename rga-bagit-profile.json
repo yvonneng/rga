@@ -1,6 +1,6 @@
 {
   "name": "RGA BagIt Profile",
-	"description": "BagIt Profile for the Rohingya Genocide Archive.",
+  "description": "BagIt Profile for the Rohingya Genocide Archive.",
   "Accept-BagIt-Version": [
     "0.97",
     "1.0"
@@ -62,8 +62,8 @@
       "required": true,
        "values":[
 	 	   "rohingyaarchive@gmail.com"
-	 ]
-		 "defaultValue":
+	 ],
+	"defaultValue":
 		 "rohingyaarchive@gmail.com"
     },
     "External-Identifier": {
@@ -89,8 +89,8 @@
       "required": true,
       "values":[
          	"Rohingya Genocide Archive" 
-         ]
-		"defaultValue":
+         ],
+	"defaultValue":
 		"Rohingya Genocide Archive"
     }
   },
