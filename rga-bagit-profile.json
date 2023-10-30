@@ -1,25 +1,3 @@
-DART
-Dashboard
-Settings
-Jobs
-Workflows
-Help
-BagIt Profile
-About
-Info
-General
-Manifests
-Serialization
-Tag Files
-Name 
-RGA
-Description
-BagIt Profile for the Rohingya Genocide Archive
- 
-RGA
-×
-Below is an export in BagIt Profile v1.3.0 format. Please be sure the BagIt-Profile-Identifier URL is correct before publishing this profile. Also note that this format cannot describe information about required tags outside of the bag-info.txt file.
-
 {
   "Accept-BagIt-Version": [
     "0.97",
