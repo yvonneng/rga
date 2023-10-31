@@ -10,7 +10,7 @@
     "application/gzip"
   ],
   "Allow-Fetch.txt": false,
-  "Serialization": "optional",
+  "Serialization": "forbidden",
   "Manifests-Allowed": [
     "md5",
     "sha1",
